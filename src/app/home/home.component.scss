@@ -1,105 +1,184 @@
-/* ===== Buttons Css ===== */
-.header-six .primary-btn {
-  background: var(--primary);
-  color: var(--white);
-  box-shadow: var(--shadow-2);
-}
-.header-six .active.primary-btn, .header-six .primary-btn:hover, .header-six .primary-btn:focus {
-  background: var(--primary-dark);
-  color: var(--white);
-  box-shadow: var(--shadow-4);
-}
-.header-six .deactive.primary-btn {
-  background: var(--gray-4);
-  color: var(--dark-3);
-  pointer-events: none;
+#home-header{
+
+  .header-title {
+    font-size: max(30px, 2.865vw);
+    line-height: max(40px, 3.698vw);
+    letter-spacing: 0px;
+    font-family: var(--aktiv);
+    font-weight: 900;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+  }
+
+  .second-line{
+    -webkit-text-stroke-color: var(--info) !important;
+    text-stroke-color: var(--info) !important;
+    -webkit-text-stroke: 1px;
+    text-stroke: 1px;
+    color: transparent;
+  }
+
+   .primary-btn {
+    background: var(--info);
+    color: var(--white);
+    box-shadow: var(--shadow-2);
+  }
+   .active.primary-btn, .header-six .primary-btn:hover, .header-six .primary-btn:focus {
+    background: var(--primary-dark);
+    color: var(--white);
+    box-shadow: var(--shadow-4);
+  }
+   .deactive.primary-btn {
+    background: var(--gray-4);
+    color: var(--dark-3);
+    pointer-events: none;
+  }
+
+   .primary-btn-outline {
+    border-color: var(--info);
+    color: var(--info);
+  }
+   .active.primary-btn-outline, .header-six .primary-btn-outline:hover, .header-six .primary-btn-outline:focus {
+    background: var(--info);
+    color: var(--white);
+  }
+   .deactive.primary-btn-outline {
+    color: var(--dark-3);
+    border-color: var(--gray-4);
+    pointer-events: none;
+  }
+
+   .header-content-area {
+    background-color: var(--white);
+    padding: 20px 0;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+     .header-content-area {
+      padding: 100px 0;
+    }
+  }
+  @media (max-width: 767px) {
+     .header-content-area {
+      padding-top: 100px;
+       padding-bottom: 50px;
+    }
+  }
+   .header-content {
+    position: relative;
+    z-index: 9;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
+     .header-content {
+      margin-top: 0;
+    }
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+     .header-title {
+      font-size: 45px;
+      line-height: 52px;
+    }
+  }
+  @media (max-width: 767px) {
+     .header-title {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+   .text {
+    margin-top: 20px;
+  }
+   .header-btn {
+    margin-top: 22px;
+  }
+   .header-btn li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+   .header-btn li:last-child {
+    margin-right: 0;
+  }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+     .header-image {
+      margin-top: 40px;
+    }
+  }
+  @media (max-width: 767px) {
+     .header-image {
+      margin-top: 30px;
+    }
+  }
+   .header-image svg {
+    width: 100%;
+     height: auto;
+     object-fit: contain;
+  }
+  @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 1400px) {
+     .header-image {
+      padding: 60px;
+    }
+  }
+
 }
 
-.header-six .primary-btn-outline {
-  border-color: var(--primary);
-  color: var(--primary);
-}
-.header-six .active.primary-btn-outline, .header-six .primary-btn-outline:hover, .header-six .primary-btn-outline:focus {
-  background: var(--primary-dark);
-  color: var(--white);
-}
-.header-six .deactive.primary-btn-outline {
-  color: var(--dark-3);
-  border-color: var(--gray-4);
-  pointer-events: none;
-}
+/*===========================
+    features css
+  ===========================*/
 
-/*===== HEADER SIX =====*/
-.header-six .header-content-area {
-  background-color: var(--white);
-  padding: 120px 0;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .header-six .header-content-area {
-    padding: 100px 0;
+.home-features{
+
+    margin-bottom: 100px;
+
+   .features-items {
+    padding-top: 70px;
   }
-}
-@media (max-width: 767px) {
-  .header-six .header-content-area {
-    padding: 60px 0;
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+     .features-items {
+      padding-top: 40px;
+    }
   }
-}
-.header-six .header-content {
-  position: relative;
-  z-index: 9;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
-  .header-six .header-content {
-    margin-top: 0;
+  @media (max-width: 767px) {
+     .features-items {
+      padding-top: 20px;
+    }
   }
-}
-.header-six .header-title {
-  font-size: 55px;
-  line-height: 65px;
-  color: var(--black);
-  font-weight: 700;
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
-  .header-six .header-title {
-    font-size: 45px;
-    line-height: 52px;
+   .features-title {
+    margin-top: 50px;
   }
-}
-@media (max-width: 767px) {
-  .header-six .header-title {
-    font-size: 30px;
-    line-height: 40px;
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+     .features-title {
+      margin-top: 30px;
+    }
   }
-}
-.header-six .text {
-  margin-top: 20px;
-}
-.header-six .header-btn {
-  margin-top: 22px;
-}
-.header-six .header-btn li {
-  display: inline-block;
-  margin-top: 10px;
-  margin-right: 10px;
-}
-.header-six .header-btn li:last-child {
-  margin-right: 0;
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .header-six .header-image {
-    margin-top: 40px;
+  @media (max-width: 767px) {
+     .features-title {
+      margin-top: 20px;
+    }
   }
-}
-@media (max-width: 767px) {
-  .header-six .header-image {
-    margin-top: 30px;
+   .sub-title {
+    color: var(--info);
   }
-}
-.header-six .header-image img {
-  width: 100%;
-}
-@media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 1400px) {
-  .header-six .header-image {
-    padding: 60px;
+   .main-title {
+    font-weight: 700;
+    margin-top: 10px;
+  }
+  @media (max-width: 767px) {
+     .main-title {
+      font-size: 28px;
+      line-height: 36px;
+    }
+  }
+   .text-lg {
+    margin-top: 19px;
+  }
+   .features-image {
+    margin-top: 50px;
+  }
+   .features-image img {
+    width: 100%;
+    border-radius: 8px;
+  }
+   .feature-btn {
+    margin-top: 32px;
   }
 }

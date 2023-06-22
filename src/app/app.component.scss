@@ -1,0 +1,21 @@
+#undiscover-nav{
+
+  .navbar-brand{
+    font-size: max(25px, 1.823vw);
+    line-height: max(32px, 2.344vw);
+    font-weight: 900;
+    letter-spacing: 0px;
+    font-family: var(--aktiv);
+    margin-bottom: 0px;
+    text-transform: uppercase;
+
+    span{
+      -webkit-text-stroke-color: var(--info) !important;
+      text-stroke-color: var(--info) !important;
+      -webkit-text-stroke: 1px;
+      text-stroke: 1px;
+      color: transparent;
+    }
+  }
+
+}

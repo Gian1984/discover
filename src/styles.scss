@@ -1,12 +1,14 @@
 /* Bootstrap */
 @import "~bootstrap/dist/css/bootstrap.css";
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap');
+
 /*===========================
   COMMON css
 ===========================*/
 :root {
-  --font-family: "Inter", sans-serif;
+  --aktiv: 'aktiv-grotesk', sans-serif;
+  --font-family: "Outfit", sans-serif;
   --primary: #155bd5;
   --primary-dark: #1c3ab6;
   --primary-light: #e2f1ff;
@@ -179,18 +181,15 @@ p {
 
 .btn {
   font-weight: bold;
-  font-size: 16px;
+  font-size: max(14px, 0.833vw);
   line-height: 20px;
   text-align: center;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  padding: 12px 24px;
+  padding: 10px 20px;
   border-radius: 4px;
-  border: 1px solid transparent;
 }
-.btn:hover {
-  color: inherit;
-}
+
 .btn:focus {
   box-shadow: none;
   outline: none;
@@ -236,35 +235,16 @@ p {
   line-height: 40px;
 }
 
-/* ===== Buttons Css ===== */
-.primary-btn {
-  background: var(--primary);
-  color: var(--white);
-  box-shadow: var(--shadow-2);
-}
-.active.primary-btn, .primary-btn:hover, .primary-btn:focus {
-  background: var(--primary-dark);
-  color: var(--white);
-  box-shadow: var(--shadow-4);
-}
-.deactive.primary-btn {
-  background: var(--gray-4);
-  color: var(--dark-3);
-  pointer-events: none;
-}
 
-.primary-btn-outline {
-  border-color: var(--primary);
-  color: var(--primary);
-}
-.active.primary-btn-outline, .primary-btn-outline:hover, .primary-btn-outline:focus {
-  background: var(--primary-dark);
-  color: var(--white);
-}
-.deactive.primary-btn-outline {
-  color: var(--dark-3);
-  border-color: var(--gray-4);
-  pointer-events: none;
+.navbar-toggler {
+  padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+  font-size: var(--bs-navbar-toggler-font-size);
+  line-height: 1;
+  color: var(--info)!important;
+  background-color: transparent;
+  border: none !important;
+  border-radius: 0 !important;
+  transition: var(--bs-navbar-toggler-transition);
 }
 
 /*===== FOOTER TWO =====*/
