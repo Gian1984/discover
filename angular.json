@@ -31,11 +31,13 @@
             ],
             "styles": [
               "src/styles.scss",
-              "node_modules/tiny-slider/dist/tiny-slider.css"
+              "node_modules/tiny-slider/dist/tiny-slider.css",
+              "node_modules/glightbox/dist/css/glightbox.css"
             ],
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
-              "node_modules/tiny-slider/dist/tiny-slider.js"
+              "node_modules/tiny-slider/dist/tiny-slider.js",
+              "node_modules/glightbox/dist/js/glightbox.min.js"
             ]
           },
           "configurations": {

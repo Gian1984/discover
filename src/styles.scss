@@ -18,7 +18,7 @@
   --success: #13d527;
   --success-dark: #00ae11;
   --success-light: #eafbe7;
-  --secondary: #8f15d5;
+  --secondary: #FC6167;
   --secondary-dark: #6013c7;
   --secondary-light: #f4e5fa;
   --info: #15b2d5;
@@ -264,6 +264,22 @@ p {
     box-shadow: none;
     color: var(--info);
 }
+
+#undiscover-video{
+  .inner-content{
+    background-image: url("assets/image/larossa_fight.png");
+  }
+}
+
+@media (max-width: 992px) {
+  #undiscover-video{
+    .inner-content{
+      background-image: url("assets/image/larossa_massimo_fight_768.png");
+    }
+  }
+}
+
+
 
 
 

@@ -1,21 +1,23 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { ComponentFixture, } from '@angular/core/testing';
 import { AboutComponent } from './about.component';
 
-describe('AboutComponent', () => {
-  let component: AboutComponent;
-  let fixture: ComponentFixture<AboutComponent>;
 
-  beforeEach(() => {
-    TestBed.configureTestingModule({
-      declarations: [AboutComponent]
+
+import { Component, AfterViewInit } from '@angular/core';
+
+@Component({
+  selector: 'app-home',
+  templateUrl: './about.component.html',
+  styleUrls: ['./abour.component.scss'],
+})
+export class AboutComponent implements AfterViewInit{
+  ngAfterViewInit() {
+    const videoTwo = GLightbox({
+      selector: ".glightbox",
+      type: "video",
+      source: "youtube", //vimeo, youtube or local
+      width: 900,
+      autoplayVideos: true,
     });
-    fixture = TestBed.createComponent(AboutComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
-
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-});
+  }
+}
