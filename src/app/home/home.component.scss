@@ -1,4 +1,5 @@
 #home-header{
+  padding: 70px 0;
 
   .header-title {
     font-size: max(30px, 2.865vw);
@@ -18,35 +19,6 @@
     color: transparent;
   }
 
-   .primary-btn {
-    background: var(--info);
-    color: var(--white);
-    box-shadow: var(--shadow-2);
-  }
-   .active.primary-btn, .header-six .primary-btn:hover, .header-six .primary-btn:focus {
-    background: var(--primary-dark);
-    color: var(--white);
-    box-shadow: var(--shadow-4);
-  }
-   .deactive.primary-btn {
-    background: var(--gray-4);
-    color: var(--dark-3);
-    pointer-events: none;
-  }
-
-   .primary-btn-outline {
-    border-color: var(--info);
-    color: var(--info);
-  }
-   .active.primary-btn-outline, .header-six .primary-btn-outline:hover, .header-six .primary-btn-outline:focus {
-    background: var(--info);
-    color: var(--white);
-  }
-   .deactive.primary-btn-outline {
-    color: var(--dark-3);
-    border-color: var(--gray-4);
-    pointer-events: none;
-  }
 
    .header-content-area {
     background-color: var(--white);
@@ -59,9 +31,11 @@
   }
   @media (max-width: 767px) {
      .header-content-area {
-      padding-top: 100px;
+      padding-top: 20px;
        padding-bottom: 50px;
     }
+
+    padding-bottom: 0;
   }
    .header-content {
     position: relative;
@@ -72,32 +46,11 @@
       margin-top: 0;
     }
   }
-  @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
-     .header-title {
-      font-size: 45px;
-      line-height: 52px;
-    }
-  }
-  @media (max-width: 767px) {
-     .header-title {
-      font-size: 30px;
-      line-height: 40px;
-    }
-  }
+
    .text {
     margin-top: 20px;
   }
-   .header-btn {
-    margin-top: 22px;
-  }
-   .header-btn li {
-    display: inline-block;
-    margin-top: 10px;
-    margin-right: 10px;
-  }
-   .header-btn li:last-child {
-    margin-right: 0;
-  }
+
   @media only screen and (min-width: 768px) and (max-width: 991px) {
      .header-image {
       margin-top: 40px;
@@ -108,16 +61,31 @@
       margin-top: 30px;
     }
   }
-   .header-image svg {
-    width: 100%;
-     height: auto;
-     object-fit: contain;
-  }
+
   @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 1400px) {
      .header-image {
       padding: 60px;
     }
   }
+
+}
+
+/*===========================
+    tech css
+  ===========================*/
+
+
+#tech-start{
+  padding-bottom: 70px;
+
+  svg{
+    width: 70%;
+  }
+
+  @media (max-width: 767px) {
+    padding-bottom: 0;
+  }
+
 
 }
 
@@ -130,7 +98,7 @@
     margin-bottom: 100px;
 
    .features-items {
-    padding-top: 70px;
+    padding-top: 100px;
   }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
      .features-items {

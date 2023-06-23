@@ -9,7 +9,10 @@
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
       <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasNavbarLabel">UNDISCOVER<span>.ME</span></h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+          <svg fill="currentColor" height="20px" width="20px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+               viewBox="0 0 512 512" xml:space="preserve"><g><g><polygon points="512,59.076 452.922,0 256,196.922 59.076,0 0,59.076 196.922,256 0,452.922 59.076,512 256,315.076 452.922,512 512,452.922 315.076,256 		"/></g></g></svg>
+        </button>
       </div>
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
@@ -17,7 +20,19 @@
             <a class="nav-link active" routerLink="/home" routerLinkActive="active">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" routerLink="/home" routerLinkActive="active">Home</a>
+            <a class="nav-link active" routerLink="/about" routerLinkActive="active">Knowledge</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/about" routerLinkActive="active">Skill up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/about" routerLinkActive="active">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/about" routerLinkActive="active">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" routerLink="/about" routerLinkActive="active">Contact</a>
           </li>
         </ul>
       </div>
@@ -28,7 +43,7 @@
 <router-outlet></router-outlet>
 
 <!--====== FOOTER ======-->
-<footer class="footer-area footer-two">
+<footer class="footer-area" id="undiscover-footer">
   <div class="footer-widget">
     <div class="container">
       <div class="row">
@@ -36,32 +51,33 @@
           <div class="f-about">
             <div class="footer-logo">
               <a href="javascript:void(0)">
-                <img src="https://cdn.ayroui.com/1.0/images/footer/logo.svg" alt="Logo" />
+                <h5 class="footer-logo">UNDISCOVER<span>.ME</span></h5>
               </a>
             </div>
-            <p class="text">
-              Lorem Ipsum is simply dummy text of the printing and
-              typesetting industry.
-            </p>
             <ul class="social">
               <li>
                 <a href="javascript:void(0)">
-                  <i class="lni lni-facebook-filled"></i>
+                  <i class="lni fab fa-facebook"></i>
                 </a>
               </li>
               <li>
                 <a href="javascript:void(0)">
-                  <i class="lni lni-twitter-original"></i>
+                  <i class="lni fab fa-twitter"></i>
                 </a>
               </li>
               <li>
                 <a href="javascript:void(0)">
-                  <i class="lni lni-instagram-filled"></i>
+                  <i class="lni fab fa-instagram"></i>
                 </a>
               </li>
               <li>
                 <a href="javascript:void(0)">
-                  <i class="lni lni-linkedin-original"></i>
+                  <i class="lni fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li>
+                <a href="javascript:void(0)">
+                  <i class="lni fab fa-github"></i>
                 </a>
               </li>
             </ul>
@@ -72,8 +88,6 @@
             <h6 class="footer-title">Company</h6>
             <ul>
               <li><a href="javascript:void(0)">About</a></li>
-              <li><a href="javascript:void(0)">Contact</a></li>
-              <li><a href="javascript:void(0)">Marketing</a></li>
             </ul>
           </div>
           <!-- footer link -->
@@ -82,20 +96,16 @@
           <div class="footer-link">
             <h6 class="footer-title">Services</h6>
             <ul>
-              <li><a href="javascript:void(0)">Products</a></li>
-              <li><a href="javascript:void(0)">Business</a></li>
-              <li><a href="javascript:void(0)">Developer</a></li>
+              <li><a href="javascript:void(0)">Web development</a></li>
             </ul>
           </div>
           <!-- footer link -->
         </div>
         <div class="col-xl-2 col-lg-3 col-sm-4">
           <div class="footer-link">
-            <h6 class="footer-title">Help & Suuport</h6>
+            <h6 class="footer-title">Help & Support</h6>
             <ul>
-              <li><a href="javascript:void(0)">Support Center</a></li>
-              <li><a href="javascript:void(0)">FAQ</a></li>
-              <li><a href="javascript:void(0)">Terms & Conditions</a></li>
+              <li><a href="javascript:void(0)">Contact</a></li>
             </ul>
           </div>
           <!-- footer link -->
@@ -111,7 +121,7 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="copyright text-center">
-            <p class="text">Copyright © 2024 Gianluca Tiengo. All Rights Reserved</p>
+            <p class="text">Copyright © 2023 Gianluca Tiengo. All Rights Reserved</p>
           </div>
           <!-- copyright -->
         </div>
