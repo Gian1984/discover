@@ -26,4 +26,84 @@
 </section>
 <!--====== VIDEO ENDS ======-->
 
+<!--====== PORTFOLIO START ======-->
+<section class="portfolio-area" id="undiscover-portfolio">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xxl-6 col-xl-7 col-lg-8">
+        <div class="section-title text-center mb-5">
+          <h2 class="mb-3 fw-bold">Portfolio Style</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="portfolio-menu text-center">
+          <button data-filter="all" class="active">ALL WORK</button>
+          <button data-filter="branding">BRANDING</button>
+          <button data-filter="marketing">MARKETING</button>
+          <button data-filter="planning">PLANNING</button>
+          <button data-filter="research">RESEARCH</button>
+        </div>
+        <!-- portfolio menu -->
+      </div>
+    </div>
+    <!-- row -->
+    <div class="row grid">
+
+      <div
+        *ngFor="let item of projects let i = index;"
+        class="col-lg-4 col-sm-6 branding-3 planning-3"
+        [attr.data-filter]=" item.fil"
+      >
+        <div class="portfolio-style-three">
+          <div class="portfolio-image">
+            <img
+              src="{{ item.img }}"
+              alt="image"
+            />
+            <div
+              class="
+                     portfolio-overlay
+                     d-flex
+                     align-items-center
+                     justify-content-center
+                     "
+            >
+              <div class="portfolio-content">
+                <div class="portfolio-icon">
+                  <a
+                    class="image-popup-three glightbox3"
+                    href="{{ item.url }}"
+                  >
+                    <i class="lni lni-zoom-in"> </i>
+                  </a>
+                </div>
+                <div class="portfolio-icon">
+                  <a href="javascript:void(0)">
+                    <i class="lni lni-link"> </i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-text">
+            <h4 class="portfolio-title">
+              <a href="javascript:void(0)">{{ item.name }}</a>
+            </h4>
+            <p class="text">
+              {{ item.desc }}
+            </p>
+          </div>
+        </div>
+        <!-- single portfolio -->
+      </div>
+
+    </div>
+    <!-- row -->
+  </div>
+  <!-- container -->
+</section>
+<!--====== PORTFOLIO ENDS ======-->
+
 
