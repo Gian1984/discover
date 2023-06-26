@@ -10,7 +10,7 @@
   --aktiv: 'aktiv-grotesk', sans-serif;
   --font-family: "Outfit", sans-serif;
   --primary: #155bd5;
-  --primary-dark: #1c3ab6;
+  --primary-dark: #111D4A;
   --primary-light: #e2f1ff;
   --accent: #00d4d7;
   --accent-dark: #00bac1;
@@ -19,7 +19,7 @@
   --success-dark: #00ae11;
   --success-light: #eafbe7;
   --secondary: #FC6167;
-  --secondary-dark: #6013c7;
+  --secondary-dark: #8789C0;
   --secondary-light: #f4e5fa;
   --info: #15b2d5;
   --info-dark: #0f8ca8;
@@ -243,7 +243,7 @@ p {
 .navbar-toggler {
   border: none;
   outline: none;
-  color: var(--info)!important;
+  color: var(--black)!important;
   background-color: transparent;
 
   &:focus,
