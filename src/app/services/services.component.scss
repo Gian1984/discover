@@ -1,0 +1,95 @@
+/*===========================
+  Services Two CSS
+===========================*/
+.features-area-one{
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+
+.features-area-two{
+  padding-top: 60px;
+  padding-bottom: 120px;
+}
+
+#undiscover-services {
+  background-color: var(--white);
+
+
+   .section-title {
+    padding-bottom: 10px;
+  }
+   .title {
+     font-size: max(30px, 2.865vw);
+     line-height: max(40px, 3.698vw);
+     font-weight: 900;
+     font-family: var(--aktiv);
+     text-transform: uppercase;
+     -webkit-text-stroke-color: var(--error-dark) !important;
+     text-stroke-color: var(--error-dark) !important;
+     -webkit-text-stroke: 1.5px;
+     text-stroke: 1.5px;
+     color: transparent;
+  }
+  @media (max-width: 767px) {
+     .title {
+      font-size: 30px;
+      line-height: 35px;
+    }
+  }
+   .text {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--dark-3);
+    margin-top: 24px;
+  }
+
+  .features-style-two {
+    padding: 40px 20px 52px;
+    background-color: var(--white);
+    margin-top: 40px;
+    transition: all 0.3s;
+    box-shadow: var(--shadow-2);
+    border-radius: 4px;
+  }
+  .features-style-two:hover {
+    box-shadow: var(--shadow-4);
+  }
+  .features-style-two .features-title {
+    font-size: 36px;
+    line-height: 45px;
+    color: var(--black);
+    font-weight: 400;
+  }
+  @media only screen and (min-width: 992px) and (max-width: 1199px), (max-width: 767px) {
+    .features-style-two .features-title {
+      font-size: 24px;
+      line-height: 35px;
+    }
+  }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .features-style-two .features-title {
+      font-size: 36px;
+      line-height: 45px;
+    }
+  }
+  .features-style-two .features-icon {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+  }
+  .features-style-two .features-icon i {
+    font-size: 60px;
+    line-height: 70px;
+    color: var(--error-dark);
+  }
+  .features-style-two .features-icon .shape {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  .features-style-two .text {
+    color: var(--dark-3);
+    margin-top: 16px;
+  }
+}
