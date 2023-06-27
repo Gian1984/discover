@@ -1,1 +1,124 @@
-<p>contact works!</p>
+<!--====== CONTACT ONE PART START ======-->
+<section class="contact-area">
+  <div class="container">
+    <div class="row justify-content-left">
+      <div class="col-lg-6">
+        <div class="content">
+          <h2 class="title">Get in touch</h2>
+          <p>
+            My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- row -->
+  </div>
+  <!-- container -->
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-7 col-lg-8">
+        <div class="contact-form form-style-four mt-15">
+          <form [formGroup]="validationForm" (ngSubmit)="onSubmit($event)">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-input mt-15">
+                  <label for="name">Full Name</label>
+                  <div class="input-items default">
+                    <input type="text" id="name" formControlName="name" name="name" placeholder="John Doe" />
+                  </div>
+                </div>
+                <!-- form input -->
+              </div>
+              <div class="col-md-6">
+                <div class="form-input mt-15">
+                  <label for="email">Email</label>
+                  <div class="input-items default">
+                    <input type="text" id="email" formControlName="email" name="mail" placeholder="admin@uideck.co" />
+                  </div>
+                </div>
+                <!-- form input -->
+              </div>
+
+
+              <div class="col-md-6">
+                <div class="form-input mt-15">
+                  <label for="subject">Subject</label>
+                  <div class="input-items default">
+                    <input type="text" id="subject" formControlName="subject" name="subject" placeholder="Example..." />
+                  </div>
+                </div>
+                <!-- form input -->
+              </div>
+
+              <div class="col-md-12">
+                <div class="form-input mt-15">
+                  <label for="message">Your Message</label>
+                  <div class="input-items default">
+                    <textarea
+                      id="message" formControlName="message" name="message"
+                      placeholder="Type your message here"
+                    ></textarea>
+                  </div>
+                </div>
+                <!-- form input -->
+              </div>
+              <div class="col-md-12">
+                <div class="single-form mt-15">
+                  <div class="input-form rounded-buttons">
+                    <button
+                      class="btn primary-btn"
+                      type="submit"
+                    >
+                      SEND MESSAGE
+                    </button>
+                  </div>
+                </div>
+                <!-- single form -->
+              </div>
+            </div>
+            <!-- row -->
+          </form>
+        </div>
+        <!-- contact form -->
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8 offset-xl-1">
+        <div class="section-title">
+          <h3 class="subtitle">Follow me</h3>
+        </div>
+        <div class="contact-info">
+          <ul class="social mt-5">
+            <li>
+              <a href="https://www.facebook.com/gianluca.tiengo">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/truefreedom84">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/gianluca.tiengo/">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/gianluca-tiengo/">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Gian1984">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- contact-info -->
+      </div>
+    </div>
+    <!-- row -->
+  </div>
+  <!-- container -->
+</section>
+<!--====== CONTACT ONE PART ENDS ======-->

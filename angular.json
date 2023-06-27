@@ -37,6 +37,7 @@
             "scripts": [
               "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
               "node_modules/tiny-slider/dist/tiny-slider.js",
+              "node_modules/emailjs-com/dist/email.min.js",
               "node_modules/glightbox/dist/js/glightbox.min.js"
             ]
           },
