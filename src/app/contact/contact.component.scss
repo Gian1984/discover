@@ -17,8 +17,8 @@
   font-weight: 900;
   font-family: var(--aktiv);
   text-transform: uppercase;
-  -webkit-text-stroke-color: var(--success-dark) !important;
-  text-stroke-color: var(--success-dark) !important;
+  -webkit-text-stroke-color: var(--info) !important;
+  text-stroke-color: var(--info) !important;
   -webkit-text-stroke: 1.5px;
   text-stroke: 1.5px;
   color: transparent;
@@ -195,16 +195,19 @@
 }
 .contact-info .social li a:hover {
   color: var(--white);
-  background-color: var(--success-dark);
+  background-color: var(--info);
   border-color: transparent;
 }
+
+.section-social img{
+  margin-bottom: 20px;
+}
+
 @media (max-width: 992px) {
-  .section-social{
-    display: none;
+  .section-social img{
+    margin-top: 20px;
   }
-  .contact-info{
-    display: none;
-  }
+
   .contact-area {
     padding-top: 80px;
     padding-bottom: 0;
@@ -246,7 +249,7 @@
     top: 0;
     height: 80px;
     width: 50px;
-    border: 1px solid var(--success-dark);
+    border: 1px solid var(--info);
     border-radius: 0 0 0 30px;
     right: -1px;
     top: -1px;
@@ -259,7 +262,7 @@
     top: 0;
     height: 40px;
     width: 40px;
-    border: 1px solid var(--success-dark);
+    border: 1px solid var(--info);
     border-radius: 50px;
     right: 60px;
     top: 10px;
@@ -272,11 +275,11 @@
     text-align: center;
     border-radius: 10px;
     background-color: var(--white);
-    color: var(--success-dark);
+    color: var(--info);
     box-shadow: var(--shadow-2);
   }
    .single-about-items .items-icon i {
-    font-size: 32px;
+    font-size: 60px;
   }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
      .single-about-items .items-icon {

@@ -43,7 +43,38 @@
     text-transform: uppercase;
     line-height: 33px;
     padding: 10px 0;
+    color: var(--black)!important;
+    transition: 0.3ms;
   }
+
+  .nav-link:hover{
+    -webkit-text-stroke-color: var(--info) !important;
+    text-stroke-color: var(--info) !important;
+    -webkit-text-stroke: 1.5px;
+    text-stroke: 1.5px;
+    color: transparent!important;
+  }
+
+
+  #knowledge-nav:hover{
+    -webkit-text-stroke-color: var(--primary-dark) !important;
+    text-stroke-color: var(--primary-dark) !important;
+  }
+
+  #about-nav:hover{
+    -webkit-text-stroke-color: var(--secondary) !important;
+    text-stroke-color: var(--secondary) !important;
+  }
+
+
+  #skillup-nav:hover{
+    -webkit-text-stroke-color: var(--secondary-dark) !important;
+    text-stroke-color: var(--secondary-dark) !important;
+  }
+
+
+
+
 }
 
 /*===== FOOTER START =====*/
