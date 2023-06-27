@@ -91,43 +91,19 @@ l-61.675-172.654L211.861,404.962z"/></g></svg>
 
       <div
         *ngFor="let item of projects let i = index;"
-        class="col-lg-4 col-sm-6 branding-3 planning-3 py-2"
+        class="col-lg-4 col-sm-6 col-6 branding-3 planning-3 py-2"
         [attr.data-filter]=" item.fil"
       >
         <div class="portfolio-style-three">
           <div class="portfolio-image">
             <img
               src="{{ item.img }}"
-              alt="image"
+              alt="portfolio single project image {{ item.name }}"
             />
-            <div
-              class="
-                     portfolio-overlay
-                     d-flex
-                     align-items-center
-                     justify-content-center
-                     "
-            >
-              <div class="portfolio-content">
-                <div class="portfolio-icon">
-                  <a
-                    class="image-popup-three glightbox3"
-                    href="{{ item.url }}"
-                  >
-                    <i class="lni lni-zoom-in"> </i>
-                  </a>
-                </div>
-                <div class="portfolio-icon">
-                  <a href="javascript:void(0)">
-                    <i class="lni lni-link"> </i>
-                  </a>
-                </div>
-              </div>
-            </div>
           </div>
           <div class="portfolio-text">
             <h4 class="portfolio-title">
-              <a href="javascript:void(0)">{{ item.name }}</a>
+              <a href="{{ item.url }}">{{ item.name }}</a>
             </h4>
             <p class="text">
               {{ item.desc }}

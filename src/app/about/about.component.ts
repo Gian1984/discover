@@ -39,7 +39,7 @@ export class AboutComponent implements AfterViewInit{
     {
       id:4,
       fil:'vuetailwind',
-      img:'../../assets/image/leudev.png',
+      img:'../../assets/image/letu.png',
       name: 'Let You Dev',
       desc:'Platform for rsonal growth in programming',
       url:'https://letudev.com/',

@@ -246,8 +246,6 @@
 
 #undiscover-portfolio{
 
-
-
     padding-top: 100px;
     padding-bottom: 100px;
 
@@ -304,10 +302,16 @@
     }
   }
   @media (max-width: 767px) {
+
+    padding-top: 40px;
+
      .portfolio-menu button {
-      font-size: 14px;
-      padding: 0 22px;
-      line-height: 42px;
+       font-size: 14px;
+       padding: 5px 22px;
+       line-height: 42px;
+       display: block;
+       text-align: center;
+       margin: auto;
     }
   }
    .portfolio-menu button::before {
@@ -427,6 +431,9 @@
   @media (max-width: 767px) {
     .portfolio-style-three .portfolio-title a {
       font-size: 20px;
+    }
+    .portfolio-style-three .portfolio-image img {
+      width: 60%;
     }
   }
   .portfolio-style-three .text {

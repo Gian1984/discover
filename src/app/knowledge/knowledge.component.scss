@@ -32,7 +32,6 @@
     }
   }
 
-
    .section-title-six h2 {
       margin-bottom: 15px;
      font-size: max(30px, 2.865vw);
@@ -45,19 +44,6 @@
      -webkit-text-stroke: 1.5px;
      text-stroke: 1.5px;
      color: transparent;
-  }
-
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-     .section-title-six h2 {
-      font-size: 2rem;
-      line-height: 2.8rem;
-    }
-  }
-  @media (max-width: 767px) {
-     .section-title-six h2 {
-      font-size: 1.5rem;
-      line-height: 1.9rem;
-    }
   }
 
    .section-title-six p {
