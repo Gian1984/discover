@@ -79,10 +79,17 @@
             <!-- row -->
           </form>
         </div>
+
+        <div class="row"  *ngIf="msg">
+          <div class="alert  alert-dismissible fade show" role="alert">
+            {{ msg }}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+        </div>
         <!-- contact form -->
       </div>
       <div class="col-xl-4 col-lg-4 col-md-6 col-sm-8 offset-xl-1">
-        <div class="section-title">
+        <div class="section-title section-social">
           <h3 class="subtitle">Follow me</h3>
         </div>
         <div class="contact-info">
@@ -122,3 +129,67 @@
   <!-- container -->
 </section>
 <!--====== CONTACT ONE PART ENDS ======-->
+
+<!--====== CONTACT PART TWO START ======-->
+<section class="about-area" id="contact-info">
+  <div class="container">
+    <div class="row justify-content-left">
+      <div class="col-lg-6">
+        <div class="about-title text-start">
+          <h2 class="title fw-bold pb-4">Are you ready?</h2>
+          <p>
+            As your partner i do my best, but what's more important is how i will try help you move forward. Whether it’s to better align on your business challenge, understand the people you need to reach, or define the best process to get there, we do it together as one single, cohesive team.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- row -->
+    <div class="row justify-content-center">
+      <div class="col-md-4 col-sm-8">
+        <div class="single-about-items">
+          <div class="items-icon">
+            <i class="far fa-stars"></i>
+          </div>
+          <div class="items-content">
+            <h4 class="items-title">Easy</h4>
+            <p class="text">
+              No matter what level of web expertise you have, the whole process of development will be simple and manageable.
+            </p>
+          </div>
+        </div>
+        <!-- single about items -->
+      </div>
+      <div class="col-md-4 col-sm-8">
+        <div class="single-about-items">
+          <div class="items-icon">
+            <i class="far fa-search"></i>
+          </div>
+          <div class="items-content">
+            <h4 class="items-title">Focus</h4>
+            <p class="text">
+              I dont want to lure you with empty promises and hyperbole. Instead, i prefer results.
+            </p>
+          </div>
+        </div>
+        <!-- single about items -->
+      </div>
+      <div class="col-md-4 col-sm-8">
+        <div class="single-about-items">
+          <div class="items-icon">
+            <i class="fal fa-fire"></i>
+          </div>
+          <div class="items-content">
+            <h4 class="items-title">Commitment</h4>
+            <p class="text">
+              I know how important is the presence on the web for you, and that's why I'm committed every day to ensure the best result.
+            </p>
+          </div>
+        </div>
+        <!-- single about items -->
+      </div>
+    </div>
+    <!-- row -->
+  </div>
+  <!-- container -->
+</section>
+<!--====== CONTACT PART TWO ENDS ======-->

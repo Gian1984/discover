@@ -13,7 +13,7 @@ import emailjs, { EmailJSResponseStatus } from '@emailjs/browser';
 
 export class ContactComponent {
 
-
+  msg: string = '';
   validationForm: FormGroup;
 
   constructor() {
@@ -38,9 +38,11 @@ export class ContactComponent {
       .then(
         (result: EmailJSResponseStatus) => {
           this.validationForm.reset();
+          this.msg = 'Thank you your message was successfully sent!';
         },
         (error) => {
           this.validationForm.reset();
+          this.msg = 'An error occurred during submission, please try again later!';
         }
       );
   }
