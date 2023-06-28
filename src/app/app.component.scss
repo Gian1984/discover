@@ -72,6 +72,12 @@
     text-stroke-color: var(--secondary-dark) !important;
   }
 
+  @media (max-width: 768px) {
+    .navbar-toggler{
+      padding-right: 0!important;
+    }
+  }
+
 
 
 

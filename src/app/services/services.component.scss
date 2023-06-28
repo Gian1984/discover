@@ -11,6 +11,12 @@
   padding-bottom: 120px;
 }
 
+@media (max-width: 769px) {
+  .features-area-two{
+    padding-bottom: 40px;
+  }
+}
+
 .features-area-two,
 .features-area-one {
   background-color: var(--white);
