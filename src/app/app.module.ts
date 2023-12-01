@@ -10,6 +10,7 @@ import { ContactComponent } from './contact/contact.component';
 import { KnowledgeComponent } from './knowledge/knowledge.component';
 import { SkillupComponent } from './skillup/skillup.component';
 import { ServicesComponent } from './services/services.component';
+import { PathLocationStrategy, LocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,7 @@ import { ServicesComponent } from './services/services.component';
     AppRoutingModule,
     ReactiveFormsModule,
   ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: PathLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

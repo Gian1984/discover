@@ -108,6 +108,30 @@ export class AboutComponent implements AfterViewInit{
       desc:'Portfolio Web Site',
       url:'https://undiscover.me/',
     },
+    {
+      id:13,
+      fil:'wordpress',
+      img:'../../assets/image/logoBIoNew.png',
+      name: 'Bioholistic',
+      desc:'Natural healthcare for pharmacies',
+      url:'https://www.bioholistic.be/',
+    },
+    {
+      id:14,
+      fil:'wordpress',
+      img:'../../assets/image/didierlogo.jpeg',
+      name: 'Didier Engels',
+      desc:'Artistic photography',
+      url:'https://www.didierengels.be/',
+    },
+    {
+      id:15,
+      fil:'wordpress',
+      img:'../../assets/image/logodefmunt.png',
+      name: 'Munters & Bostanci',
+      desc:'Joailliers',
+      url:'https://www.muntersbostanci.com/',
+    },
   ]
 
   lightbox:any;
