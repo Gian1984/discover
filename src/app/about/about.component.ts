@@ -14,7 +14,7 @@ export class AboutComponent implements AfterViewInit{
     {
       id:1,
       fil:'vuelaravel',
-      img:'https://www.gianlucatiengo.com/img/BELGA-MOBILITY.afde20c7.png',
+      img:'../../assets/image/BELGA-MOBILITY.afde20c7.png',
       name: 'Belga Mobility',
       desc:'Luxury car rental service with a private driver',
       url:'https://belgamobility.com/',
@@ -23,7 +23,7 @@ export class AboutComponent implements AfterViewInit{
     {
       id:2,
       fil:'vuetailwind',
-      img:'https://www.gianlucatiengo.com/img/logo_fava_border.a89ac8fa.png',
+      img:'../../assets/image/logo_fava_border.a89ac8fa.png',
       name: 'Claudio Fava',
       desc: 'Architect',
       url:'https://www.favaclaudio.com/',
@@ -31,7 +31,7 @@ export class AboutComponent implements AfterViewInit{
     {
       id:3,
       fil:'vuetailwind',
-      img:'https://www.gianlucatiengo.com/img/pizza-vino-logo.e5ef6a69.png',
+      img:'../../assets/image/pizza-vino-logo.e5ef6a69.png',
       name: 'Pizza Vino',
       desc:'Best pizza in BXL',
       url:'https://pizzavino.be/',
@@ -47,7 +47,7 @@ export class AboutComponent implements AfterViewInit{
     {
       id:5,
       fil:'wordpress',
-      img:'https://www.gianlucatiengo.com/img/panoptes.06203a59.png',
+      img:'../../assets/image/panoptes.06203a59.png',
       name: 'Panoptès',
       desc:'Art Collection',
       url:'https://www.panoptes.art/',
@@ -55,7 +55,7 @@ export class AboutComponent implements AfterViewInit{
     {
       id:6,
       fil:'wordpress',
-      img:'https://www.gianlucatiengo.com/img/lavilla.f7cb1b5b.png',
+      img:'../../assets/image/lavilla.f7cb1b5b.png',
       name: 'La Villa In The Sky',
       desc:'Expérience culinaire de haute voltige',
       url:'https://www.lavillainthesky.be/',
@@ -63,7 +63,7 @@ export class AboutComponent implements AfterViewInit{
     {
       id:7,
       fil:'wordpress',
-      img:'https://www.gianlucatiengo.com/img/quendra.7a17d18d.png',
+      img:'../../assets/image/quendra.7a17d18d.png',
       name: 'Quendra',
       desc:'European Telecom Consulting Company',
       url:'https://www.quendra.com/',
@@ -71,7 +71,7 @@ export class AboutComponent implements AfterViewInit{
     {
       id:8,
       fil:'wordpress',
-      img:'https://www.gianlucatiengo.com/img/odette.360e3adc.png',
+      img:'../../assets/image/odette.360e3adc.png',
       name: 'Odette En Ville',
       desc:'Hotel Restautant',
       url:'https://www.odetteenville.be/',
@@ -79,7 +79,7 @@ export class AboutComponent implements AfterViewInit{
     {
       id:9,
       fil:'wordpress',
-      img:'https://www.gianlucatiengo.com/img/unik.f4c65f45.png',
+      img:'../../assets/image/unik.f4c65f45.png',
       name: 'Unikpools',
       desc:'Exclusive Swimming Pool',
       url:'https://www.unikpools.com/',
@@ -87,7 +87,7 @@ export class AboutComponent implements AfterViewInit{
     {
       id:10,
       fil:'wordpress',
-      img:'https://www.gianlucatiengo.com/img/brusano_logo_350px.de276e6e.png',
+      img:'../../assets/image/brusano_logo_350px.de276e6e.png',
       name: 'Brusano',
       desc:'Brussels palliative care platform',
       url:'https://www.brusano.brussels/',
@@ -95,7 +95,7 @@ export class AboutComponent implements AfterViewInit{
     {
       id:11,
       fil:'wordpress',
-      img:'https://www.gianlucatiengo.com/img/4ventures-3.11819ae7.png',
+      img:'../../assets/image/4ventures-3.11819ae7.png',
       name: '4Venture',
       desc:'Privately-held investment fund',
       url:'https://www.brusano.brussels/',
