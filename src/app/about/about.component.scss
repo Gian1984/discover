@@ -249,14 +249,6 @@
     padding-top: 100px;
     padding-bottom: 100px;
 
-  .portfolio-menu {
-    margin-bottom: 30px;
-  }
-
-  .portfolio-menu svg{
-    padding: 0 5px;
-  }
-
   .section-title h2{
     font-size: max(30px, 2.865vw);
     line-height: max(40px, 3.698vw);
@@ -270,79 +262,9 @@
     color: transparent;
   }
 
-  @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
-    .portfolio-menu {
-      margin-bottom: 15px;
-    }
-  }
-   .portfolio-menu button {
-    border: none;
-    background: none;
-    font-size: 16px;
-    font-weight: 700;
-    color: var(--black);
-    line-height: 48px;
-    padding: 0 30px;
-    position: relative;
-    display: inline-block;
-    z-index: 5;
-    -webkit-transition: all 0.3s ease-out 0s;
-    -moz-transition: all 0.3s ease-out 0s;
-    -ms-transition: all 0.3s ease-out 0s;
-    -o-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s;
-    cursor: pointer;
-    margin: 0 2px;
-    text-transform: uppercase;
-  }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-     .portfolio-menu button {
-      font-size: 14px;
-      padding: 0 26px;
-    }
-  }
   @media (max-width: 767px) {
-
     padding-top: 40px;
     padding-bottom: 40px;
-
-     .portfolio-menu button {
-       font-size: 14px;
-       padding: 5px 22px;
-       line-height: 42px;
-       display: block;
-       text-align: center;
-       margin: auto;
-    }
-  }
-   .portfolio-menu button::before {
-    position: absolute;
-    content: "";
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 4px;
-    background: var(--secondary);
-    z-index: -1;
-    opacity: 0;
-    -webkit-transition: all 0.3s ease-out 0s;
-    -moz-transition: all 0.3s ease-out 0s;
-    -ms-transition: all 0.3s ease-out 0s;
-    -o-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s;
-    border-radius: 4px;
-  }
-   .portfolio-menu button:hover, .portfolio-three .portfolio-menu button.active {
-    color: var(--secondary);
-  }
-   .portfolio-menu button:hover::before, .portfolio-three .portfolio-menu button.active::before {
-    opacity: 1;
-  }
-   .hide {
-    display: none;
-  }
-   .show {
-    display: block;
   }
 
   .portfolio-style-three {
