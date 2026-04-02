@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-skillup',
-  templateUrl: './skillup.component.html',
-  styleUrls: ['./skillup.component.scss']
+    selector: 'app-skillup',
+    templateUrl: './skillup.component.html',
+    styleUrls: ['./skillup.component.scss'],
+    standalone: false
 })
 export class SkillupComponent {
   links = [
